@@ -1,0 +1,10 @@
+### hello world
+GET http://127.0.0.1:8080/app/hello
+
+
+### health check
+GET http://127.0.0.1:8080/health
+
+
+### static file
+GET http://127.0.0.1:8080/static/logo.png
