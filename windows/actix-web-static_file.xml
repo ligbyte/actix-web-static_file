@@ -1,8 +1,0 @@
-<service>
-    <id>Rust静态文件服务</id>
-    <name>Rust静态文件服务</name>
-    <description>Rust静态文件服务。</description>
-    <executable>F:\rust\rust_web\actix-web-static_file\windows\actix-web-static_file.exe</executable>
-    <workingdirectory>F:\rust_file_work</workingdirectory>
-    <logmode>rotate</logmode>
-</service>
