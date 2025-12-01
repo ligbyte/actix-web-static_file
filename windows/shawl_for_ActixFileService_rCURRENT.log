@@ -1,11 +1,3 @@
-2025-11-20 11:29:33 [DEBUG] ********** LAUNCH **********
-2025-11-20 11:29:33 [DEBUG] Cli { sub: Add { common: CommonOpts { pass: None, restart: false, no_restart: false, restart_if: [], restart_if_not: [], restart_delay: None, stop_timeout: None, no_log: false, no_log_cmd: false, log_dir: None, log_as: None, log_cmd_as: None, log_rotate: None, log_retain: None, pass_start_args: false, env: [], path: [], path_prepend: [], priority: None, command: ["F:\\rust\\actix-web-static_file\\windows\\actix-web-static_file.exe"] }, cwd: None, dependencies: [], name: "ActixFileService" } }
-2025-11-20 11:29:33 [ERROR] Failed to create the service. Error code: 5.
-2025-11-20 11:29:33 [ERROR] SC stdout:
-[SC] OpenSCManager ʧ�� 5:
-
-�ܾ����ʡ�
-
-
-2025-11-20 11:29:33 [ERROR] SC stderr:
-
+2025-12-01 14:55:23 [DEBUG] ********** LAUNCH **********
+2025-12-01 14:55:23 [DEBUG] Cli { sub: Add { common: CommonOpts { pass: None, restart: false, no_restart: false, restart_if: [], restart_if_not: [], restart_delay: None, stop_timeout: None, no_log: false, no_log_cmd: false, log_dir: None, log_as: None, log_cmd_as: None, log_rotate: None, log_retain: None, pass_start_args: false, env: [], path: [], path_prepend: [], priority: None, command: ["F:\\rust\\rust_web\\actix-web-static_file\\windows\\actix-web-static_file.exe"] }, cwd: None, dependencies: [], name: "ActixFileService" } }
+2025-12-01 14:55:23 [DEBUG] Finished successfully

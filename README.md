@@ -304,9 +304,14 @@ sc start "YourServiceName"
 1.  **下载工具**：从 GitHub 发布页面获取 `shawl` 可执行文件。
 2.  **创建服务**：以管理员身份运行命令行，使用 `shawl add` 命令将你的程序注册为服务。
     ```bash
-    shawl add --name "ActixFileService" -- "F:\rust\actix-web-static_file\windows\actix-web-static_file.exe"
+    shawl add --name "ActixFileService" -- "F:\rust\rust_web\actix-web-static_file\windows\actix-web-static_file.exe"
     ```
 3.  **配置与启动**：之后同样使用 `sc` 命令配置为自启动（`start=auto`）并启动服务。如果需要指定特定用户身份运行，可以通过 `sc config` 设置。
+
+4.  如果需要删除服务（例如为了修改配置后重新创建），请使用命令：
+    ```cmd
+    sc delete ActixWebService
+    ```
 
 ### 🌐 方案三：为 Tauri 应用实现自启
 

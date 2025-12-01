@@ -12,11 +12,11 @@ async fn health_check() -> impl Responder {
 async fn main() -> std::io::Result<()> {
     HttpServer::new(|| {
         App::new()
-            .service(actix_files::Files::new("/static", "F:/apk").show_files_listing())
+            .service(actix_files::Files::new("/file", "F:/apk").show_files_listing())
             .service(web::scope("").route("/health", web::get().to(health_check)))
             .service(web::scope("/app").route("/hello", web::get().to(index)))
     })
-    .bind(("0.0.0.0", 8080))?
+    .bind(("0.0.0.0", 8989))?
     .run()
     .await
 }
